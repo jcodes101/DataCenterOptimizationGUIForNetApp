@@ -35,8 +35,7 @@ class OptimizationPieChart:
             messagebox.showwarning('Under-optimized',f'Total optimization percentage assigned: {total_percentages}%')
 
 #sets logo image
-image_path = 'C:\\Users\\jadin\\OneDrive\\Documents\\CS Projects\\Python Projects\\Hackathon 8.0 - 11-9-24\\np_logo.png'
-#"C:\Users\jadin\OneDrive\Documents\CS Projects\Hackathon 8.0 - 11-9-24\np_logo.png"
+image_path = '(path to the "np_logo.png" image on your own computer)'
 logo_image = Image.open(image_path)
 logo_image = logo_image.resize((150, 150))
 logo_image = ctk.CTkImage(logo_image)
